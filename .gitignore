@@ -20,6 +20,7 @@ coverage.xml
 # Project Specific
 .env
 demo_output.txt
+retry_temp.txt
 .gemini/
 lab4_agent/venv/
 lab4_agent/.env

@@ -30,7 +30,8 @@ def run_tests():
             # Reset state for each test if needed, but here we just send a single message per test 
             # as per the lab requirements for individual test scenarios.
             try:
-                result = graph.invoke({"messages": [HumanMessage(content=text)]})
+                config = {"configurable": {"thread_id": f"test_{i}"}}
+                result = graph.invoke({"messages": [HumanMessage(content=text)]}, config=config)
                 
                 # Capture tool calls from the state
                 messages = result["messages"]
