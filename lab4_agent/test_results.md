@@ -94,16 +94,24 @@ Bạn muốn mình chốt phương án nào, hay cần mình tìm thêm lựa ch
 ---
 
 ## Test 4: Tôi muốn đặt khách sạn
-### Diễn giải:
-#### Lỗi:
-> Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'qwen/qwen3.6-plus:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Alibaba', 'is_byok': False}}, 'user_id': 'user_3ByElayKPMO3I8mKecuxI8GYxQ3'}
+#### Các bước xử lý:
+-(Trao đổi trực tiếp để lấy thêm thông tin khách hàng)
+#### Phản hồi cuối cùng:
+> Chào bạn! Mình sẵn sàng giúp bạn tìm khách sạn ưng ý rồi 🌴 Để mình gợi ý được chỗ ở vừa ý và phù hợp với túi tiền, bạn cho mình biết thêm 2 thông tin này nha:
+> - Bạn định du lịch thành phố nào? (VD: Đà Nẵng, Phú Quốc, Hà Nội, TP.HCM...)
+> - Bạn có mức ngân sách tối đa cho mỗi đêm khoảng bao nhiêu không? (Nếu chưa xác định rõ, mình cứ tìm các mức giá phổ biến để bạn dễ so sánh nha)
+> 
+> Cứ nhắn mình, mình sẽ lọc ngay những khách sạn có rating tốt nhất trong tầm giá cho bạn! 😊
 
 ---
 
 ## Test 5: Giải giúp tôi bài tập lập trình Python về linked list
-### Diễn giải:
-#### Lỗi:
-> Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'qwen/qwen3.6-plus:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Alibaba', 'is_byok': False}}, 'user_id': 'user_3ByElayKPMO3I8mKecuxI8GYxQ3'}
+#### Các bước xử lý:
+-(Từ chối do vi phạm Guardrail về phạm vi dịch vụ)
+#### Phản hồi cuối cùng:
+> Chào bạn, khoản này thì mình chịu thua rồi 🙈. Mình là trợ lý ảo của **TravelBuddy**, chuyên hỗ trợ tìm chuyến bay, đặt khách sạn và tư vấn lịch trình du lịch Việt Nam chứ không rành về lập trình Python lắm.
+> 
+> Nhưng nếu bạn đang cần "xả hơi" khỏi mớ code rắc rối để lên kế hoạch đi đâu đó cho thư giãn (ví dụ như một trip lên Đà Lạt ngắm sương mờ hay ra Phú Quốc tắm biển), thì nhắn mình ngay nhé! Mình hứa sẽ "cân" hết mọi yêu cầu du lịch cho bạn 😉
 
 ---
 
